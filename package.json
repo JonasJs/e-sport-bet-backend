@@ -1,0 +1,35 @@
+{
+  "name": "esports-bet-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasJs/esports-bet-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasJs/esports-bet-backend/issues"
+  },
+  "homepage": "https://github.com/JonasJs/esports-bet-backend#readme",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^9.1.7",
+    "@types/node": "^18.11.9",
+    "prisma": "^4.5.0",
+    "prisma-erd-generator": "^1.2.2",
+    "tsx": "^3.11.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.1.1",
+    "@prisma/client": "^4.5.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2"
+  }
+}
